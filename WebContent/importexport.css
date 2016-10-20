@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	}
+	body{
+		margin : 0;
+		padding :0;
+		font-family : "Palatino Linotype", "Book Antiqua",
+		palatino,serif;
+		background-color:#999;
+		}
+		
+	
+header,section,footer,aside,article,figure
+{
+	display:bolck;
+	}
+	
+.container {
+	max-width:1000px;
+	margin:auto;
+	background-color::white;
+	
+	}
+	
+	
+	header {
+		width:100%;
+		height:130px;
+		background-image:url(header.jpg);
+		}
+		
+.logo{
+	flolat:left;
+}
+#socialicons
+{
+	float:right;
+	margin-top:-7%;
+	}
+	
+	/*--------------------------main menu----------------------------*/
+	
+	#menu{
+	margin:0px;
+	padding:0px;
+	}
+
+
+
+#menu {
+	height: 42px;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	top: auto;
+	}
+ #menu ul {
+	 text-align:center;
+	 margin:0px;
+	 padding:0px;
+	 line-height::30px;
+	 }
+#menu li {
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	position:relative;
+	background-color:#777374;
+	}	
+	
+	#menu ul li a
+	{
+		text-align:center;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-decoration:none;
+		height:30px;
+		width:198px;
+		display:block;
+		color:#000000;
+		border:1px solid #000000;
+		text-shadow:1px 1px 1px #000;
+		}
+	#menu ul ul {
+		position:absolute;
+		visibility:hidden;
+		top:32px;
+		}
+	 #menu ul li:hover ul {
+		 visibility:visible;
+		 }	
+		/*--------------------------------------------------------*/
+	
+		#menu li:hover
+		{
+			background-color:#4429F3;
+			}
+			
+	#menu ul li:hover ul li a:hover	{
+		background-color:#BDB9B9;
+		color:#F3EBEB;		
+		}	
+		
+	#menu a:hover {
+		color:#000000;
+		}
+		
+		
+		/*----------------------------End of Menu--------------------------------*/
+		
+.clearfloat {
+	clear:both;
+	margin:0;
+	padding:0;
+	}
+	
+	/*---------------footer-------------------*/
+
+
+ #form-wrap {
+	 width:600px;
+	 border:5px solid #000;
+	 background-color:#666;
+	 margin:0px auto;
+	 padding:20px 0px;
+	 }
+	form{
+		width:500px;
+		margin:5px auto;
+		} 
+	label {
+		display:block;
+		margin:5px 0 5px 20px;
+		font:18px Georgia, "Times New Roman", Times, serif;
+		color:#000;
+		
+		
+		}
+	input {
+		width:250px;
+		margin:0 0 0 20px;
+		}	
+		
+	textarea {
+		width:400px;
+		margin:0 0 0 20px;
+		}		
+		
+	fielset {
+		background-color:#00C;
+		padding:0px 0px 20px 0px;;
+		}
+		
+.labelone {
+	margin-top:10px;
+	}		
+.btn {
+	margin-top:5px;
+	width:120px;
+	alignment-adjust:central;
+	}	
+form h4 {
+	margin:20px 0 0 30px;
+	font:24px Georgia, "Times New Roman", Times, serif;
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+	}	
+	
+	#footer{
+		clear:both;
+		mar-top:20px;
+		border-top:1px #666666;
+		padding:10px 0px;
+		font-size:80%; 
+		text-align:center;
+		background-color:#666;
+		margin-bottom:auto;
+		bottom:fixed;
+		}	
+		
+		
+	#allindialist {
+		margin:15px;
+		margin-left:20px;
+		}
